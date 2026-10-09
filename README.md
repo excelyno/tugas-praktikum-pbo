@@ -1,8 +1,8 @@
 # Sistem Informasi Rumah Sakit
 
 Program konsol C# untuk mensimulasikan pengelolaan data orang di lingkungan rumah sakit. Program membedakan **tenaga medis** dan **pasien**, menyimpan data dasar masing-masing, lalu menjalankan aktivitas sesuai peran mereka.
-
 Selain itu, program memperlihatkan bagaimana dokter melakukan diagnosis, perawat memeriksa pasien, dan setiap pasien memiliki rekam medis untuk mencatat keluhan serta hasil diagnosis.
+
 ---
 
 ## Daftar Isi
