@@ -282,15 +282,3 @@ flowchart TD
     H --> I
 ```
 
-
----
-
-## Catatan Implementasi
-
-| No | Catatan | Dampak | Kemungkinan pengembangan |
-|---|---|---|---|
-| 1 | `Keluhan` pada `Pasien` dan `RiwayatKeluhan` pada `RekamMedis` adalah properti terpisah | Keluhan belum otomatis tersalin ke rekam medis | Salin nilai keluhan ke `RiwayatKeluhan` saat pasien dibuat atau diperiksa |
-| 2 | `Perawat.CekPasien()` hanya menampilkan informasi | Data pasien tidak berubah setelah pemeriksaan | Tambahkan pencatatan hasil pemeriksaan ke rekam medis |
-| 3 | Data hanya disimpan selama program berjalan | Semua data hilang setelah program ditutup | Simpan ke file atau database |
-
----
