@@ -13,9 +13,6 @@ Selain itu, program memperlihatkan bagaimana dokter melakukan diagnosis, perawat
 4. [Penjelasan Class](#penjelasan-class)
 5. [Konsep OOP yang Diterapkan](#konsep-oop-yang-diterapkan)
 6. [Alur Kerja Program](#alur-kerja-program)
-7. [Catatan Implementasi](#catatan-implementasi)
-8. [Menjalankan Program](#menjalankan-program)
-
 ---
 
 ## Gambaran Program
