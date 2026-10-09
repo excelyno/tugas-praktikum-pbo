@@ -285,32 +285,6 @@ flowchart TD
     H --> I
 ```
 
-Versi teks:
-
-```text
-Program.cs
-    |
-    v
-Membuat objek RumahSakit
-    |
-    v
-Membuat Dokter, Perawat, PasienAnak, dan PasienDewasa
-    |
-    v
-Menambahkan objek ke RumahSakit
-    |
-    v
-Menampilkan daftar orang
-    |
-    v
-Menjalankan aktivitas setiap objek
-    |
-    v
-Dokter melakukan diagnosis  /  Perawat memeriksa pasien
-    |
-    v
-Menampilkan RekamMedis pasien
-```
 
 ---
 
@@ -323,16 +297,3 @@ Menampilkan RekamMedis pasien
 | 3 | Data hanya disimpan selama program berjalan | Semua data hilang setelah program ditutup | Simpan ke file atau database |
 
 ---
-
-## Menjalankan Program
-
-| Langkah | Tindakan |
-|---|---|
-| 1 | Buka solution project di Visual Studio |
-| 2 | Pastikan project yang dipilih sebagai startup project adalah project utama yang berisi `Program.cs` |
-| 3 | Jalankan dengan tombol **Start** atau tekan **F5** |
-| 4 | Lihat hasil di jendela terminal |
-
----
-
-Project ini dibuat sebagai latihan pemrograman berorientasi objek dengan studi kasus pengelolaan orang, tenaga medis, pasien, dan rekam medis pada rumah sakit.
