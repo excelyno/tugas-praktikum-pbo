@@ -7,18 +7,13 @@ namespace tugas_praktikum
     {
         static void Main(string[] args)
         {
-            // ==========================================
-            // MEMBUAT OBJEK RUMAH SAKIT
-            // ==========================================
+            // Object rumahSakit
 
             RumahSakit rumahSakit =
                 new RumahSakit("RS Sehat Bersama");
 
 
-            // ==========================================
-            // MEMBUAT OBJEK
-            // ==========================================
-
+            // object Dokter
             Dokter dokter =
                 new Dokter(
                     "Dr. Budi",
@@ -48,33 +43,15 @@ namespace tugas_praktikum
                 );
 
 
-            // ==========================================
-            // AGGREGATION
-            // ==========================================
-
             rumahSakit.TambahOrang(dokter);
             rumahSakit.TambahOrang(perawat);
             rumahSakit.TambahOrang(pasienAnak);
             rumahSakit.TambahOrang(pasienDewasa);
 
 
-            // ==========================================
-            // MENAMPILKAN SEMUA DATA
-            // ==========================================
-
             rumahSakit.DaftarOrang();
 
-
-            // ==========================================
-            // POLYMORPHISM
-            // ==========================================
-
             rumahSakit.JalankanAktivitas();
-
-
-            // ==========================================
-            // METHOD KHUSUS DOKTER
-            // ==========================================
 
             Console.WriteLine();
             Console.WriteLine("===== METHOD KHUSUS =====");
@@ -85,19 +62,11 @@ namespace tugas_praktikum
             dokter.Diagnosa(pasienDewasa);
 
 
-            // ==========================================
-            // METHOD KHUSUS PERAWAT
-            // ==========================================
-
             perawat.CekSpesialis();
             perawat.TugasUtama();
 
             perawat.CekPasien(pasienAnak);
 
-
-            // ==========================================
-            // METHOD KHUSUS PASIEN
-            // ==========================================
 
             pasienAnak.CekKeluhan();
             pasienAnak.Menangis();
@@ -106,20 +75,11 @@ namespace tugas_praktikum
             pasienDewasa.Konsultasi();
 
 
-            // ==========================================
-            // MENAMPILKAN REKAM MEDIS
-            // ==========================================
-
             Console.WriteLine();
             Console.WriteLine("===== REKAM MEDIS PASIEN DEWASA =====");
 
             pasienDewasa.RekamMedis.TampilkanRekamMedis();
 
-
-            // ==========================================
-            // SOAL NOMOR 5
-            // POLYMORPHISM
-            // ==========================================
 
             Console.WriteLine();
             Console.WriteLine("===== VARIABEL ORANG BERISI PERAWAT =====");
